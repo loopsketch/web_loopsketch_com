@@ -92,12 +92,21 @@ a:hover {
 .logo {
     display: flex;
     align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: var(--text-color);
 }
 
 .logo img {
     height: 48px;
     width: auto;
     transition: transform 0.3s ease;
+}
+
+.logo-text {
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: 0.05em;
 }
 
 .logo:hover img {
@@ -507,6 +516,14 @@ a:hover {
         height: 36px;
     }
 
+    .logo {
+        gap: 8px;
+    }
+
+    .logo-text {
+        font-size: 1rem;
+    }
+
     .site-header nav ul {
         gap: var(--spacing-md);
     }
@@ -527,6 +544,10 @@ a:hover {
 
     .logo img {
         height: 32px;
+    }
+
+    .logo-text {
+        font-size: 0.9rem;
     }
 
     .site-header nav ul {
