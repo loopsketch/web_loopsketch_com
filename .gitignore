@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# エディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 環境変数
+.env
+.env.local
+
+# ログ
+*.log
+
+# 一時ファイル
+tmp/
+temp/
